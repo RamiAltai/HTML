@@ -1,0 +1,160 @@
+<!-- this line basically tells the computer that this file contains html code -->
+<!DOCTYPE html>
+	
+	<!-- this is a comment -->
+	
+	<!-- this is html opening tag -->
+	<html>
+		<!-- this is the head "title" tag -->
+		<head>
+			<!-- charset specefiying -->
+			<meta charset="UTF-8">
+			<!-- this is the page's "tab" title -->
+			<title>This is a practice page!</title>
+		<!-- this is the head closing tag -->	
+		</head>
+		<!-- this is the body, and it basically
+		     contains all the web page contents -->
+		<body>
+			<!-- headings -->
+			<a id="heads"></a>
+			<h1>This is h1</h1>
+			<h2>This is h2</h2>
+			<h3>This is h3</h3>
+			<h4>This is h4</h4>
+			<h5>This is h5</h5>
+			<h6>This is h6</h6>
+			<!-- paragraphs -->
+			<a id="paragraphs"></a>
+			<p>This is a paragraph! here you can throw a bunch of lines</p>
+			<!-- text within the body with no tags -->
+			This is some text within the body with no tags
+			<!-- break tag is like a new line character "\n" or the Enter\Return on your keyboard -->
+			</br>
+			<!-- Hyper Text Refrence is used to implement hyperlinks it
+				 can be a normal redirection or an action like sending
+				 an email to a certain email adress using the defaul mail
+				 app on the device you're clicking on the like from -->
+			<a id="Links"></a>
+			<a href="google.com">link</a></br>
+			<a href="mailto:Email@gmail.com">E-mail link</a></br>
+			<!-- this is an image where the src represents the image
+				 source and the alt represents what will be shown
+				 alternatively if the image wasn't rendered correctly -->
+			<a id="Pics"></a>
+			<img src="birdie.png" alt="bird">
+			<!-- by default the picture will show in the default size
+				 alternatively you can specify a size by adding the
+				 height and width attributes "pixles is the unit"-->
+			<img src="birdie.png" alt="bird" height="50" width="50"></br>
+			<!-- you can mix images and links together to provide graphical links -->
+			<a href="http://www.google.com"><img src="google.png" alt="google" height="50" width="200"></a></br>
+			<!-- Special characters in HTML5 -->
+			<a id="Schars"></a>
+			<p>&amp;</br>
+				&apos;</br>
+				&gt;</br>
+				&lt;</br>
+				&quot;</br>
+				&nbsp;</br>
+				&copy;</br>
+				&mdash;</br>
+				&ndash;</br>
+				&frac14;</br>
+				&frac12;</br>
+				&hellip;</br>
+				&reg;</br>
+				&sect;</br>
+				&trade;</br></p>
+			<!-- subscript & superscript -->
+			x<sub>x</sub></br>
+			x<sup >x</sup></br>
+			<!-- lists ul : unordered list
+					   ol : ordered list
+					   li : list item 		-->
+			<a id="lists"></a>
+			<ul>
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+			</ul></br>
+			<ol>
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+			</ol></br>
+			<!-- tables -->
+			<!-- table tag to start with then
+				 tr to start a new row,
+				 within each row you can add columns -->
+			<!-- colspan attribute is used to expand
+				 a cell across multiple colums-->
+			<!-- rowspan attribute is used to expand
+				 a cell across multiple rows-->
+			<!-- td gives normal text while th gives bold text-->
+				<a id="tables"></a>
+				table title
+					<tr>
+						<td>A</td>
+						<td>B</td>
+						<td>C</td>
+						<td rowspan="2">D</td>
+					</tr>
+					<tr>
+						<th colspan="3">E</th>
+					</tr>		
+			</table></br>
+			<!-- forms -->
+			<a id="forms"></a>
+			<form method="get" action="http://www.google.com"></br>
+				<strong>This is a strong text tagged text</strong></br>
+				<!-- text field -->
+				<label>Name:<input name="name " type="text" size="15" maxlength="30"></label></br>
+				<!-- password field-->
+				<label>Pass:<input name="name " type="password" size="15" maxlength="30"></label></br>
+				<!-- text box -->
+				<label>Stuff:<textarea name="stuff" cols="20" rows="10"></textarea></label></br>
+				<!-- checkbox -->
+				<label>More Stuff:<input name="MoreStuff" type="checkbox"></label></br>
+				<label>Even More Stuff:<input name="EvenMoreStuff" type="checkbox"></label></br>
+				<!-- Radio -->
+				<label>a<input name="radiothingy" type="radio" value="radio1"></label>
+				<label>b<input name="radiothingy" type="radio" value="radio2"></label>
+				<label>c<input name="radiothingy" type="radio" value="radio3"></label>
+				<label>d<input name="radiothingy" type="radio" value="radio4"></label></br>
+				<!-- dropdown menu -->
+				<select name="dropdown">
+					<option selected>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select></br>
+				
+				<!-- special buttons -->
+				<input type="submit" value="Submit">
+				<input type="reset" value="Clear">
+			</form>
+			
+			<!-- internal linking -->
+			<!-- i used id attribute at certain areas as a pointer -->
+			<!-- and here will be the links -->
+			Go to<a href="#heads"> heads </a></br>
+			Go to<a href="#paragraphs"> paragraphs </a></br>
+			Go to<a href="#Links"> Links </a></br>
+			Go to<a href="#Pics"> Pics </a></br>
+			Go to<a href="#Schars"> Schars </a></br>
+			Go to<a href="#lists"> lists </a></br>
+			Go to<a href="#tables"> tables </a></br>
+			Go to<a href="#forms"> forms </a></br>
+			
+			<!-- meta data is data about data and in html it's
+				 a way that helps the search engines to find web
+				 pages with keywords that matches the search queries -->
+			<meta name="keywords" content="web design, web page, web development">
+		<!-- body closing tag -->
+		</body>
+	<!-- Don't forget to close the html tag at the end of the web page -->	
+	</html>
+	
+	

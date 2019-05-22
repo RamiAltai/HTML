@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>New HTML5 Section Elements</title>
+	</head>
+
+	<body>
+		<!-- header element creates a header for the page -->
+		<header> 
+			<h1>This is the header section<h1>
+	    
+			<!-- time element inserts a date and/or time -->
+			<time>2012-01-17</time> 
+		</header>
+		
+		<!-- Begin section 1 -->
+		<section id = "1">   
+		
+			<!-- nav element groups navigation links  -->
+			<nav> 
+				<h2>Links</h2>
+				<ul>
+					<li><a href ="http://www.google.com">Google</a></li>
+					<li><a href = "http://www.youtube.com">Youtube</a></li>
+					<li><a href = "http://www.twitter.com">Twitter</a></li>
+				</ul>
+			</nav> 
+		</section>
+      
+		<!-- Begin section 2 -->
+		<section id = "2"> 
+        
+			<h2>Figure</h2>
+			<!-- figure element describes the image -->
+			<figure> 
+				<img src = "birdie.png" alt = "Birdie" />
+				<!-- figurecaption element inserts a figure caption -->
+				<figcaption>Image Caption</figcaption>
+			</figure> 
+			<!--article element represents content from another source -->
+			<article> 
+				<header> a <a href ="http://www.google.com"> link </a> to an <mark>external</mark> article </header>	
+				<!-- summary element represents a summary for the -->
+				<!-- content of the details element -->
+				<details>
+					<summary>summary!</summary>
+					<ul>
+						<li>stuff</li>
+						<li>more stuff</li>
+						<li><mark>rainbow</mark> donkey</li>
+					</ul>
+				</details>
+			</article>
+        
+		<!-- aside element represents content in a sidebar that's -->
+         <!-- related to the content around the element -->
+         <aside>The aside element</aside>
+		</section>
+	  <!-- Begin section 3 -->
+		<section id = "3"> 
+			<h2>Yes's & No's</h2>
+			<!-- meter element represents a scale within a range -->
+			0 <meter min = "0" max = "54" value ="14"></meter> 100
+		</section>
+      
+      <!-- footer element represents a footer to a section or page, -->
+      <!-- usually containing information such as author name, -->
+      <!-- copyright, etc. -->
+		<footer>
+        
+		<!-- wbr element indicates the appropriate place to break a -->
+        <!-- word when the text wraps -->
+			<h1>ThisSentanceIsWrittenWithoutSpacesIntentiallyToShowWhatThe<wbr>wbrTaReallyDoesWhichIsSimplyProvidingAPointToBreakIfNeeded</h1>
+			
+			<!-- address element represents contact information for a -->
+			<!-- document or the nearest body element or article -->
+			<!-- Doesn't do much appart from some appearence modifications -->
+			<address>
+				Contact me <a href = "mailto:emailaddr@icloud.com"> my personal email</a>
+			</address>
+      </footer>
+		
+   </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>	
+	<html>	
+		<head>
+			<meta charset="UTF-8">
+			<title>This is a practice page!</title>
+		</head>
+		<body>
+			<h1>Input Types Testing</h1>
+			<!-- forms -->
+			<form method="get" action="http://www.google.com"></br>
+				<!-- color input type that takes hex color codes-->
+				<label> Color: <input type="color" autofocus/></label></br>
+				<!-- takes a date in the format (YYYY-MM-DD) -->
+				<label> Date: <input type="date"/></label></br>
+				<!-- takes a date in the format (YYYY-MM-DD T00:00) -->
+				<label> DateTime: <input type="datetime"/></label></br>
+				<!-- takes a input in the format (name@domain.com) -->
+				<label> E-mail: <input type="email" placeholder="example@domain.com"/></label></br>
+				<!-- takes a date in the format (YYYY-MM) -->
+				<label> Month: <input type="month" /></label></br>
+				<!-- takes a input in the format (N) from 0 to 7 -->
+				<label>Number: <input type="number" min="0" max="7" step="1" value="4"/></label></br>
+				<!-- a slider that have values from 0 to 20 -->
+				<label>Range: <input type="range" min="0" max="20" value="10"/></label></br>
+				<!-- takes a input as a search query -->
+				<label>Search: <input type="search" placeholder="Search Query"/></label></br>
+				<!-- takes a input in the format specified using the regular expression in the pattern attribute -->
+				<label>Tel: <input type="tel" placeholder="(###) ###-####" pattern="\(\d{3}\) +\d{3}-\d{4}"/></label></br>
+				<!-- takes a input in the format (HH:MM:SS.FF) -->
+				<label>Time: <input type="time"/></label></br>
+				<!-- takes a input in the format (http://www.domain.com) -->
+				<label>URL: <input type="url" placeholder="http://www.example.com"/></label></br>
+				<!-- takes a input in the format (yyyy-Wnn) -->
+				<label>Week: <input type="week"/></label></br>
+				
+				<!-- special form buttons -->
+				<input type="submit" value="Submit"></br>
+				<input type="reset" value="Clear"></br>
+			</form>
+			
+			<h1>Auto Complete Testing</h1>
+			<form method="get" action="http://www.google.com" autocomplete="on">
+				<label> First Name: <input type="text" id="FirstName" placeholder="First Name"/></label></br>
+				<label> Last Name: <input type="text" id="LastName" placeholder="Last Name"/></label></br>
+				<label> Email: <input type="email" id="Email" placeholder="example@domain.com"/></label></br>
+				<label for="txtList"> Birth Month: <input type="text" id="txtList" placeholder="Select A month" list="months"/>
+					<datalist id="months">
+						<option value="jan">
+						<option value="feb">
+						<option value="mar">
+						<option value="apr">
+						<option value="may">
+						<option value="jun">
+						<option value="jul">
+						<option value="aug">
+						<option value="sep">
+						<option value="oct">
+						<option value="nov">
+						<option value="dec">
+					</datalist>
+				</label></br>
+				
+				<!-- special form buttons -->
+				<input type="submit" value="Submit"></br>
+				<input type="reset" value="Clear"></br>
+			</form>
+			
+			
+		</body>
+	</html>
+	
+	
